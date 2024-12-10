@@ -4,7 +4,7 @@ export default function SubHeader() {
   return (
     <div>
       <nav>
-        <ul className='flex justify-between px-3 items-center text-sm text-gray-400 py-4 cursor-pointer  border-b'>
+        <ul className='max-md:hidden flex justify-between px-3 items-center text-sm text-gray-400 py-4 cursor-pointer  border-b'>
             <li className='text-[#4eaadf] font-semibold'>Art de la table</li>
             <li>Mobilier</li>
             <li>Nappage</li>

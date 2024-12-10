@@ -3,7 +3,7 @@ import Image from "next/image";
 import tab3 from "@/img/tab3.png";
 export default function Card() {
   return (
-    <div className="w-[250px] px-4 text-xs">
+    <div className="md:w-[260px] w-[350px] px-4 text-xs">
       <div className="flex flex-col">
         <div  className="relative"> 
            <div className=" absolute top-2"> 
@@ -12,7 +12,7 @@ export default function Card() {
            <span>{heart}</span>
            <span>Art de la table</span></div></div>
         </div>
-        <Image src={tab3} alt="pic" className="w-56 rounded-md"></Image>
+        <Image src={tab3} alt="pic" className=" rounded-md md:w-[250px] w-[340px]"></Image>
       </div>
       <div className="flex justify-between items-center text-sm font-serif">
         <span className="font-semibold">Title</span>
