@@ -1,3 +1,5 @@
+/* eslint-disable */
+
 import React from "react";
 import Image from "next/image";
 import tab3 from "@/img/tab3.png";

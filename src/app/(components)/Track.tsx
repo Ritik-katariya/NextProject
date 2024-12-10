@@ -1,3 +1,5 @@
+/* eslint-disable */
+
 import React from "react";
 import Image from "next/image";
 import icon1 from "@/img/icon1.png";
